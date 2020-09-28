@@ -1,3 +1,35 @@
-.body {
-  background-color: gray;
+body {
+  color: #2a2a2a;
+}
+.test-link {
+  color: #000000;
+}
+.test-link:hover {
+  color: #ff6347;
+}
+.test-link:focus {
+  color: #3cff00;
+}
+.test-link:active {
+  color: #2ae459;
+}
+ul {
+  list-style: none;
+}
+
+.logo {
+  color: #000000;
+}
+.logo:hover {
+  color: #8207f5;
+}
+
+/* Site nav */
+.site-nav .link {
+  color: #18a0fb;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: #6f00ff;
 }
