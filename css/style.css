@@ -34,7 +34,7 @@ ul {
   color: #6f00ff;
 }
 
-.bbb {
+.link-btn {
   display: inline-flex;
   align-items: center;
   padding: 10px 20px;
@@ -42,11 +42,19 @@ ul {
   color: #fff;
   border-radius: 3px;
   text-decoration: none;
+  margin-bottom: 40px;
+}
+.link-btn::after {
+  content: '';
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+  background-color: #fff;
 }
 
-.bbb > .iii {
+/* .link-icon {
   width: 20px;
   height: 20px;
   margin-right: 10px;
   background-color: #fff;
-}
+} */
